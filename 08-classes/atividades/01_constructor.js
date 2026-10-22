@@ -6,4 +6,5 @@ class produto {
         this.quantidade = quantidade;
         
     }
+
 }
