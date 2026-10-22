@@ -1,0 +1,24 @@
+{
+  "name": "programador_lucas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temario.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicolucas96-dev/Programador_Lucas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/magicolucas96-dev/Programador_Lucas/issues"
+  },
+  "homepage": "https://github.com/magicolucas96-dev/Programador_Lucas#readme",
+  "dependencies": {
+    "inquirer": "^14.2.3"
+  }
+}

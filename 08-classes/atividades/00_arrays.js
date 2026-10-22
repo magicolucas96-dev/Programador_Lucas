@@ -19,4 +19,4 @@ const alunos = [
 alunos.forEach((aluno)=>{
     aluno.apresentar();
 }
-)
+) 
