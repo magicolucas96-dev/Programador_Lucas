@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #e1f7f1;
+}
+
+#img1{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 15px #00000010
+
+}
+
