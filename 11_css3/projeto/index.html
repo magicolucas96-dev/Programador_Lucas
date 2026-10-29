@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Protótipo didático de estoque: HTMLS5, CSS3, responsividade e primeiro contato com DOM">
+    <title> Aula 11! com CSS3</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container topo">
+         <div>   
+         <h1>Controle de Estoque</h1>
+         <p class="subtitulo">Projeto do curso Programador de Sistemas</p>
+         </div>
+         <nav id="menulinks" class="menu" aria-label="Menu principal">
+            <a href="#inicio" class="ativo" aria-current="location">Inicio</a>
+            <a href="#conceitos">CSS na prática</a>
+            <a href="#cadastro">Cdasatro</a>
+            <a href="#produtos">Produtos</a>
+         </nav>
+        </div> 
+    </header>
+    <main class="container conteudo">
+        <section id="inicio" class="card destaque">
+            <h2>Bem-vindo ao painel</h2>
+            <p id="mensagem" role="status">A interface HTML está pronta para receber estilos e interações.</p>
+            <button id="botao_teste" class="botao" type="button">Testar DOM</button>
+            <P class="nota">O batão demonstra apenas a troca de uma mensagem com Javascriot.</P>
+        </section>
+
+        <section id="conceitos" class="card">
+            <h2>CSS na prática</h2>
+            <p>observe a mesma class aplicada em vários cartões e os efeitos dos seletores.</p>
+            <div class="grade-resumo">
+                <article class="resumo-item">
+                    <h3>Seletores</h3>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

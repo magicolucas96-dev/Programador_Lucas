@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
@@ -11,7 +11,7 @@ p {
 #menulinks{
     border:solid 1px #ccc;
     border-radius: 8px;
-    padding: 10px;
+    padding: 8px;
 }
 
 #menulinks a{
@@ -35,4 +35,35 @@ p {
 #menulinks a.ativo {
     background-color: #0e78c4;
     color: #fff;
+}
+
+
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input , select , textarea {
+    width: 250px;
+    padding: 3px 10px;
+}
+
+button {
+    background-color: #0e78c4;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+}
+
+table, caption {
+    border: solid 1px #ccc;
+    padding: 3px;
+    margin: 0;
+    width: 350px;
+
+}
+
+nav {
+    
 }
