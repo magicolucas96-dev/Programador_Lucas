@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>captura de dados</title>
-    <link rel="stylesheet" href="css/styple.css">
-</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+
+    
 <body>
     <nav>
         <a href="01_valores.html">Valores</a>
@@ -22,7 +24,13 @@
     </button>
     <pi id="resultado"></pi>
     <script>
-        
+        const nome = document.querySelector("#nome");
+        const botao = document.querySelector("#mostrar");
+        const resultado = document.querySelector("#resultado");
+        botao.addEventListener("click", () => {
+            resultado.textContent = nome.value;
+        });
+
     </script>
 
 </body>
