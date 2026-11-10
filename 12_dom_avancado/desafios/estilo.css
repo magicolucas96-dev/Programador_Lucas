@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +7,18 @@
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
+
 body {
-    min-height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #1e3c72, #2a5298, #6a11cb);
+    min-height: 100vh;
+    background: 
 }
 
 .caixa-login {
+
     width: 340px;
     padding: 40px 30px;
     background-color: #ffffff;
