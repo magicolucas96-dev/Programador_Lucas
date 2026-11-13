@@ -1,4 +1,4 @@
-use escola_bd;
+use alunso_bd;
 INSERT INTO alunos
 (nome, cpf, rg, data_nascimento, cidade, status)
 VALUES
@@ -111,3 +111,7 @@ VALUES
 ('Jéssica Ramos', '10000000098', 'RG100098', '2000-04-21', 'Caucaia', 0),
 ('Danilo Batista', '10000000099', 'RG100099', '2001-06-27', 'Fortaleza', 1),
 ('Helena Monteiro', '10000000100', 'RG100100', '2002-08-16', 'Maracanaú', 1);
+
+
+
+
