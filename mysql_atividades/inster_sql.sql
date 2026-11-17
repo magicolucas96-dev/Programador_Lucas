@@ -22,9 +22,7 @@ VALUES
 ('Diego Barbosa', '10000000017', 'RG100017', '2000-09-13', 'Caucaia', 1),
 ('Isabela Monteiro', '10000000018', 'RG100018', '2003-11-08', 'Fortaleza', 0),
 ('Thiago Araújo', '10000000019', 'RG100019', '1998-02-26', 'Sobral', 1),
-('Fernanda Dias', '10000000020', 'RG100020', '2001-04-16', 'Eusébio', 1),
+('Fernanda Dias', '10000000020', 'RG100020', '2001-04-16', 'Eusébio', 1);
 
-use agenda_bd;
-insert into contatos 
-(nome, cpf, rg, data_nascimento, cidade, st
+
 

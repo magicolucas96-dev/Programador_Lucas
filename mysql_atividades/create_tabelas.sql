@@ -23,7 +23,6 @@ data_cadastro timestamp
 default current_timestamp 
 ) engine = InnoDB;
 
-show tables;
 
 use escola_bd;
 create table if not exists alunos (
@@ -38,8 +37,6 @@ status int(1) not null default 0,
 constraint chk_aluno_status check (status in (0,1) )
 ) engine = InnoDB;
 
-show tables;
-
 describe escola_bd.ususarios;
 
 use portfolio_bd;
@@ -52,7 +49,6 @@ email varchar(150) not null,
 telefone varchar(20),
 biografia text
 ) engine = innodb;
-show tables;
 
 use agenda_bd;
 create table contatos (
@@ -66,5 +62,36 @@ data_cadastra timestamp default current_timestamp,
 status int(1) not null
 ) engine = InnoDB;
 
-show tables;
+show databases;
+
+use escola_bd;
+create table cursos (
+id_curso int auto_increment primary key,
+cursos varchar(20) not null,
+data_cadastro timestamp default current_timestamp,
+status int(1) not null
+) engine = InnoDB;
+
+describe curso_tb;
+
+alter table curso_tb modify column status int default "1";
+
+select * from curso_tb;
+alter table curso_tb modify  column curso varchar(100) unique not null;
+insert into curso_tb (curso) values
+("programaçaõ web"),
+("formaçaõ - programaçaõ em python"),
+("programador de sistema"),
+("logica de programação"),
+("desenvolverador front-end");
+
+
+select * from curso_tb;
+ show tables;
+
+
+
+
+
+
 
