@@ -78,16 +78,29 @@ alter table curso_tb modify column status int default "1";
 
 select * from curso_tb;
 alter table curso_tb modify  column curso varchar(100) unique not null;
-insert into curso_tb (curso) values
-("programaçaõ web"),
-("formaçaõ - programaçaõ em python"),
-("programador de sistema"),
-("logica de programação"),
-("desenvolverador front-end");
 
+create table curso_tb (
+id_curso int auto_increment primary key,
+curso varchar(100) not null,
+data_cadastro timestamp default current_timestamp,
+status int default "1"
 
-select * from curso_tb;
- show tables;
+);
+
+use escola_bd;
+create table matricula_tb (
+id_matricula int auto_increment primary key,
+id_alno_mat int not null,
+id_curso_mat int not null,
+id_turno_mat int not null,
+data_matricula timestamp default current_timestamp
+);
+describe matricula_tb;
+alter table matricula_tb add column id_turno_mat int not null;
+
+select * from matricula_tb;
+
+show tables;
 
 
 
